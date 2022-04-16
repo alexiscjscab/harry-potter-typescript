@@ -11,7 +11,10 @@
   transition: 0.3s all ease-in-out;
   cursor: pointer;
   border-radius: 10px;
-  
+  box-shadow: 0 0 10px #ccc;
+  &:hover{
+    transform: scale(1.1) translateY(-5px);
+  }
   .card-image {
      height: 100%;
      padding: 5px;
@@ -52,6 +55,11 @@
   text-transform: capitalize;
   cursor: pointer;
   border-radius: 10px;
+  transition: 0.3s all ease-in-out;
+  box-shadow: 0 0 10px #ccc;
+  &:hover{
+    transform: scale(1.1) translateY(5px);
+  }
   .detail{
     height: 100%;
     display: flex;

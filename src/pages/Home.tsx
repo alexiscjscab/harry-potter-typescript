@@ -21,7 +21,7 @@ const Home = (): JSX.Element => {
           name: character.name,
           nickName: character.alternate_names,
           species: character.species,
-          img: character.image,
+          img: index <= 25 ? character.image : 'https://wallpaperaccess.com/full/635136.jpg',
           gender: character.gender,
           house: character.house,
           alive: character.alive,

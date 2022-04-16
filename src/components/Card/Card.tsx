@@ -12,7 +12,7 @@ interface Props {
 const Card = ({ char, index }: Props) => {
   const [isFlipped, setIsFlipped] = useState<boolean>(false);
 
-  const handleHover = (): void => {
+  const handleClick = (): void => {
     setIsFlipped(!isFlipped);
   };
 
@@ -21,7 +21,7 @@ const Card = ({ char, index }: Props) => {
       <div
         key={char.id}
         className={!isFlipped ? 'card' : ''}
-        onMouseLeave={() => handleHover()}
+        onClick={() => handleClick()}
         style={{backgroundImage: `url(${char.img})`}}
       >
         <div className='card-image'>
@@ -33,7 +33,7 @@ const Card = ({ char, index }: Props) => {
         </div>
       </div>
 
-      <div className={isFlipped ? 'description' : ''} onMouseLeave={() => handleHover()}>
+      <div className={isFlipped ? 'description' : ''} onClick={() => handleClick()}>
         <div className='detail'>
           <h2>{char.name}</h2>
         {
