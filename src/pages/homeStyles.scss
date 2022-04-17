@@ -5,3 +5,21 @@
  background-size: 100% 100%;
  background-attachment: fixed;
 }
+
+
+.loading {
+ height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+
+  h1{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+}
