@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/harry-potter-typescript/static/css/main.44d5e947.css",
-    "main.js": "/harry-potter-typescript/static/js/main.11a78c7f.js",
+    "main.css": "/harry-potter-typescript/static/css/main.7a4bfcde.css",
+    "main.js": "/harry-potter-typescript/static/js/main.56b8e47d.js",
     "index.html": "/harry-potter-typescript/index.html",
-    "main.44d5e947.css.map": "/harry-potter-typescript/static/css/main.44d5e947.css.map",
-    "main.11a78c7f.js.map": "/harry-potter-typescript/static/js/main.11a78c7f.js.map"
+    "main.7a4bfcde.css.map": "/harry-potter-typescript/static/css/main.7a4bfcde.css.map",
+    "main.56b8e47d.js.map": "/harry-potter-typescript/static/js/main.56b8e47d.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d5e947.css",
-    "static/js/main.11a78c7f.js"
+    "static/css/main.7a4bfcde.css",
+    "static/js/main.56b8e47d.js"
   ]
 }
